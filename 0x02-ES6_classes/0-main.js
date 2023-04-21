@@ -1,4 +1,4 @@
-import ClassRoom from "./0-classroom.js";
+import Currency from './3-currency';
 
-const room = new ClassRoom(10);
-console.log(room._maxStudentsSize)
+const dollar = new Currency('$', 'Dollars');
+console.log(dollar.displayFullCurrency());
