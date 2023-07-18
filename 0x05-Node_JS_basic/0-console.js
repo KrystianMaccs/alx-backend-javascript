@@ -4,7 +4,7 @@
  * @author Christian Maximilian <https://github.com/KrystianMaccs>
  */
 const displayMessage = (msg) => {
-    console.log(msg);
-  };
-  
-  module.exports = displayMessage;
+  console.log(msg);
+};
+
+module.exports = displayMessage;
